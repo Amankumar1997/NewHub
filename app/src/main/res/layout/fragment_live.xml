@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LiveFragment">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/timesnow"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:background="@drawable/timesnow"></ImageView>
+
+            <TextView
+                android:id="@+id/timesnow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="118dp"
+                android:layout_marginTop="-43dp"
+                android:fontFamily="serif"
+                android:text="Times Now Live"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                ></TextView>
+            <ImageView
+                android:id="@+id/wion"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:background="@drawable/wions"></ImageView>
+
+            <TextView
+                android:id="@+id/wion1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="118dp"
+                android:layout_marginTop="-43dp"
+                android:fontFamily="serif"
+                android:text="WION Live"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                ></TextView>
+            <ImageView
+                android:id="@+id/moneycontrol"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:background="@drawable/moneycontrol"></ImageView>
+
+            <TextView
+                android:id="@+id/moneycontrol1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="118dp"
+                android:layout_marginTop="-43dp"
+                android:fontFamily="serif"
+                android:text="Money Control"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold"></TextView>
+            <ImageView
+                android:id="@+id/jantv"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:background="@drawable/jantv"></ImageView>
+
+            <TextView
+                android:id="@+id/jantv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="118dp"
+                android:layout_marginTop="-43dp"
+                android:fontFamily="serif"
+                android:text="Jan Tv Live"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:id="@+id/zeenews"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:background="@drawable/zeenews"></ImageView>
+
+            <TextView
+                android:id="@+id/zeenews1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="118dp"
+                android:layout_marginTop="-43dp"
+                android:fontFamily="serif"
+                android:text="Zee News Tv"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                ></TextView>
+            <ImageView
+                android:id="@+id/newsnation"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:background="@drawable/newsnation"></ImageView>
+
+            <TextView
+                android:id="@+id/newsnation1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="118dp"
+                android:layout_marginTop="-43dp"
+                android:fontFamily="serif"
+                android:text="News Nation"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                ></TextView>
+            <ImageView
+                android:id="@+id/rstv"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:background="@drawable/rajyasabha"></ImageView>
+
+            <TextView
+                android:id="@+id/rstv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="118dp"
+                android:layout_marginTop="-43dp"
+                android:fontFamily="serif"
+                android:text="RajyaSabha Tv"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                ></TextView>
+            <ImageView
+                android:id="@+id/abp"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:background="@drawable/abp"></ImageView>
+
+            <TextView
+                android:id="@+id/abp1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="118dp"
+                android:layout_marginTop="-43dp"
+                android:fontFamily="serif"
+                android:text="Abp News Live "
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                ></TextView>
+            <ImageView
+                android:id="@+id/indiatv"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:background="@drawable/indiatv"></ImageView>
+
+            <TextView
+                android:id="@+id/indiatv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="118dp"
+                android:layout_marginTop="-43dp"
+                android:fontFamily="serif"
+                android:text="India TV Live"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                ></TextView>
+            <ImageView
+                android:id="@+id/aajtak"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:background="@drawable/aajtak"></ImageView>
+
+            <TextView
+                android:id="@+id/aajtak1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="118dp"
+                android:layout_marginTop="-43dp"
+                android:fontFamily="serif"
+                android:text="Aaj  Tak Live    "
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                ></TextView>
+
+ <ImageView
+                android:id="@+id/republictv"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:background="@drawable/republictv"></ImageView>
+
+            <TextView
+                android:id="@+id/republictv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="118dp"
+                android:layout_marginTop="-43dp"
+                android:fontFamily="serif"
+                android:text="Republic Tv"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                ></TextView>
+            <ImageView
+                android:id="@+id/ndtv"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:background="@drawable/ndtv"></ImageView>
+
+            <TextView
+                android:id="@+id/ndtv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="118dp"
+                android:layout_marginTop="-43dp"
+                android:fontFamily="serif"
+                android:text="NDTV Live"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                ></TextView>
+
+            <ImageView
+                android:id="@+id/bloomberg"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:background="@drawable/bloomberg"></ImageView>
+
+            <TextView
+                android:id="@+id/bloomberg1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="118dp"
+                android:layout_marginTop="-43dp"
+                android:fontFamily="serif"
+                android:text="BloomBergeTV"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                ></TextView>
+
+
+            <ImageView
+                android:id="@+id/etnow"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:background="@drawable/etnow"></ImageView>
+
+            <TextView
+                android:id="@+id/etnow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="118dp"
+                android:layout_marginTop="-43dp"
+                android:fontFamily="serif"
+                android:text="Et Now Live"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                ></TextView>
+            <ImageView
+                android:id="@+id/mirrornow"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:background="@drawable/mirrornow"></ImageView>
+
+            <TextView
+                android:id="@+id/mirrornow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="118dp"
+                android:layout_marginTop="-43dp"
+                android:fontFamily="serif"
+                android:text="Mirror Now"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                ></TextView>
+
+        </LinearLayout>
+
+    </ScrollView>>
+
+
+</LinearLayout>

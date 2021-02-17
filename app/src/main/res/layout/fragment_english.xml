@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EnglishFragment">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/usatoday"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:background="@drawable/usatoday"></ImageView>
+
+            <TextView
+                android:id="@+id/usatoday1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="118dp"
+                android:layout_marginTop="-43dp"
+                android:fontFamily="serif"
+                android:text="USATodaynews"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                ></TextView>
+
+            <ImageView
+                android:id="@+id/buisnesstandard"
+                android:layout_width="95dp"
+                android:layout_height="48dp"
+                android:background="@drawable/buisnessstandard"></ImageView>
+
+            <TextView
+                android:id="@+id/buisnesstandard1"
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:layout_marginLeft="118dp"
+                android:layout_marginTop="-43dp"
+                android:fontFamily="serif"
+                android:text="BuisnesStandrd"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold"></TextView>
+
+
+            <ImageView
+                android:id="@+id/timesofindia"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:background="@drawable/timesofindia"></ImageView>
+
+            <TextView
+                android:id="@+id/timesofindia1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="118dp"
+                android:layout_marginTop="-43dp"
+                android:fontFamily="serif"
+                android:text="Times Of India"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                ></TextView>
+            <ImageView
+            android:id="@+id/thestatesman"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:background="@drawable/thestatesman"></ImageView>
+
+            <TextView
+                android:id="@+id/thestatesman1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="118dp"
+                android:layout_marginTop="-43dp"
+                android:fontFamily="serif"
+                android:text="TheStateMan"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                ></TextView>
+            <ImageView
+                android:id="@+id/thehindu"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:background="@drawable/thehindu"></ImageView>
+
+            <TextView
+                android:id="@+id/thehindu1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="118dp"
+                android:layout_marginTop="-43dp"
+                android:fontFamily="serif"
+                android:text="The Hindu      "
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                ></TextView>
+            <ImageView
+                android:id="@+id/tribuneindia"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:background="@drawable/tribuneindia"></ImageView>
+
+            <TextView
+                android:id="@+id/tribuneindia1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="118dp"
+                android:layout_marginTop="-43dp"
+                android:fontFamily="serif"
+                android:text="Tribune India  "
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                ></TextView>
+            <ImageView
+                android:id="@+id/indianexpress"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:background="@drawable/indianexpress"></ImageView>
+
+            <TextView
+                android:id="@+id/indianexpress1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="118dp"
+                android:layout_marginTop="-43dp"
+                android:fontFamily="serif"
+                android:text="Indian Express  "
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                ></TextView>
+
+            <ImageView
+                android:id="@+id/centralchronicle"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:background="@drawable/centralchroniccal"></ImageView>
+
+            <TextView
+                android:id="@+id/centralchronicle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="118dp"
+                android:layout_marginTop="-43dp"
+                android:fontFamily="serif"
+                android:text="CentrlChronicl"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                ></TextView>
+  <ImageView
+                android:id="@+id/asianage"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:background="@drawable/asianage"></ImageView>
+
+            <TextView
+                android:id="@+id/asianage1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="118dp"
+                android:layout_marginTop="-43dp"
+                android:fontFamily="serif"
+                android:text="Asian Age         "
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                ></TextView>
+
+
+
+
+            <ImageView
+                android:id="@+id/freepressjournal"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:background="@drawable/freepressjonroul"></ImageView>
+
+            <TextView
+                android:id="@+id/freepressjournal1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="118dp"
+                android:layout_marginTop="-43dp"
+                android:fontFamily="serif"
+                android:text="FreePresJournl"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                ></TextView>
+            <ImageView
+                android:id="@+id/telegraphindia"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:background="@drawable/telegraph"></ImageView>
+
+            <TextView
+                android:id="@+id/telegraphindia1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="118dp"
+                android:layout_marginTop="-43dp"
+                android:fontFamily="serif"
+                android:text="TeleGraphIndia"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                ></TextView>
+            <ImageView
+                android:id="@+id/deccanherald"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:background="@drawable/decann"></ImageView>
+
+            <TextView
+                android:id="@+id/deccanherald1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="118dp"
+                android:layout_marginTop="-43dp"
+                android:fontFamily="serif"
+                android:text="DeccanHerald"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                ></TextView>
+            <ImageView
+                android:id="@+id/dailypoineer"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:background="@drawable/dailypoineer"></ImageView>
+
+            <TextView
+                android:id="@+id/dailypoineer1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="118dp"
+                android:layout_marginTop="-43dp"
+                android:fontFamily="serif"
+                android:text="Daily Poineer "
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                ></TextView>
+            <ImageView
+                android:id="@+id/hindustantimes"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:background="@drawable/hindustantimes"></ImageView>
+
+            <TextView
+                android:id="@+id/hindustantimes1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="118dp"
+                android:layout_marginTop="-43dp"
+                android:fontFamily="serif"
+                android:text="HindustanTims"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                ></TextView>
+            <ImageView
+                android:id="@+id/deccanchronicle"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:background="@drawable/hindustantimes"></ImageView>
+
+            <TextView
+                android:id="@+id/deccanchronicle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="118dp"
+                android:layout_marginTop="-43dp"
+                android:fontFamily="serif"
+                android:text="DecanChronicle"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                ></TextView>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.newshub">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SignUp" />
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".About" />
+        <activity android:name=".WionNews" />
+        <activity android:name=".NewsNation" />
+        <activity android:name=".JanTv" />
+        <activity android:name=".ZeeNews" />
+        <activity android:name=".MoneyControl" />
+        <activity android:name=".RajyasabhaTv" />
+        <activity android:name=".TimesNow" />
+        <activity android:name=".EtNow" />
+        <activity android:name=".Mirrornow" />
+        <activity android:name=".Bloombergquint" />
+        <activity android:name=".NdtvLive" />
+        <activity android:name=".RepublicBharatlive" />
+        <activity android:name=".IndiaTvNewsLive" />
+        <activity android:name=".AbpLive" />
+        <activity android:name=".AajTaklive" />
+        <activity android:name=".DeccanChronicle" />
+        <activity android:name=".HindustanTimes" />
+        <activity android:name=".DailyPoineer" />
+        <activity android:name=".DeccanHerald" />
+        <activity android:name=".TeleGraphIndia" />
+        <activity android:name=".AsianAge" />
+        <activity android:name=".CentralChronicle" />
+        <activity android:name=".FreePressJournal" />
+        <activity android:name=".IndianExpress" />
+        <activity android:name=".TribuneIndia" />
+        <activity android:name=".TheHindu" />
+        <activity android:name=".Timesofindia" />
+        <activity android:name=".BuisnessStandard" />
+        <activity android:name=".UsaTodayNews" />
+        <activity android:name=".TheStatesman" />
+        <activity android:name=".Rebulicworld" />
+        <activity android:name=".Patrika" />
+        <activity android:name=".Jansatta" />
+        <activity android:name=".Prabhatkhabar" />
+        <activity android:name=".LokmatTv" />
+        <activity android:name=".HariBhoomi" />
+        <activity android:name=".Samacharjagat" />
+        <activity android:name=".hindimilap" />
+        <activity android:name=".VirArjun" />
+        <activity android:name=".Ianshindi" />
+        <activity android:name=".LiveHinustan" />
+        <activity android:name=".AajSmaj" />
+        <activity android:name=".DainikBhasker" />
+        <activity android:name=".Punjabkesari" />
+        <activity android:name=".Amarujala" />
+        <activity android:name=".DainikJagran" />
+        <activity android:name=".SplashScreen" />
+        <activity android:name=".MainActivity" >
+
+        </activity>
+    </application>
+
+</manifest>

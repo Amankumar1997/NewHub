@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6047EE00"
+    tools:context=".SplashScreen">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Nh"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#24AE32"
+        android:textSize="90sp"
+        android:textStyle="bold"
+
+        ></TextView>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logo"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="-80dp"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="News Hub"
+        android:textSize="40sp"
+        android:fontFamily="serif-monospace"
+        android:textColor="#176E25"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+
+
+
+        ></TextView>
+
+</LinearLayout>

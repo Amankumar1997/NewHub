@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:orientation="vertical"
+    tools:context=".HindiFragment"
+    android:background="#FFFFFF"
+
+    >
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+     <ImageView
+         android:id="@+id/patrika"
+         android:layout_width="100dp"
+         android:layout_height="48dp"
+         android:background="@drawable/patrika"></ImageView>
+
+     <TextView
+         android:id="@+id/patrika1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="118dp"
+         android:layout_marginTop="-43dp"
+         android:fontFamily="serif"
+         android:text="पत्रिका            "
+         android:textColor="#000"
+         android:textSize="30sp"
+         android:textStyle="bold"
+         ></TextView>
+
+     <ImageView
+         android:id="@+id/jansatta"
+         android:layout_width="100dp"
+         android:layout_height="48dp"
+         android:background="@drawable/jansatta"></ImageView>
+
+     <TextView
+         android:id="@+id/jansatta1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="118dp"
+         android:layout_marginTop="-43dp"
+         android:fontFamily="serif"
+         android:text="जनसत्ता           "
+         android:textColor="#000"
+         android:textSize="30sp"
+         android:textStyle="bold"
+         ></TextView>
+
+
+
+
+
+     <ImageView
+         android:id="@+id/samacharjagat"
+         android:layout_width="100dp"
+         android:layout_height="50dp"
+         android:background="@drawable/samacharjagat"></ImageView>
+
+     <TextView
+         android:id="@+id/samacharjagat1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="118dp"
+         android:layout_marginTop="-43dp"
+         android:fontFamily="serif"
+         android:text="समाचर जगत    "
+         android:textColor="#000"
+         android:textSize="30sp"
+         android:textStyle="bold"
+          ></TextView>
+     <ImageView
+         android:id="@+id/hindimilap"
+         android:layout_width="100dp"
+         android:layout_height="50dp"
+         android:background="@drawable/hindimilap"></ImageView>
+
+     <TextView
+         android:id="@+id/hindimilap1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="118dp"
+         android:layout_marginTop="-43dp"
+         android:fontFamily="serif"
+         android:text="हिंदी मिलाप       "
+         android:textColor="#000"
+         android:textSize="30sp"
+         android:textStyle="bold"
+         ></TextView>
+
+
+
+     <ImageView
+         android:id="@+id/livehindustan"
+         android:layout_width="100dp"
+         android:layout_height="50dp"
+         android:background="@drawable/livehindustan"></ImageView>
+
+     <TextView
+         android:id="@+id/livehindustan1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="118dp"
+         android:layout_marginTop="-43dp"
+         android:fontFamily="serif"
+         android:text="लाइव हिंदुस्तान "
+         android:textColor="#000"
+         android:textSize="30sp"
+         android:textStyle="bold"
+
+         ></TextView>
+
+     <ImageView
+         android:id="@+id/dainik"
+         android:layout_width="100dp"
+         android:layout_height="50dp"
+         android:background="@drawable/dainikjagran"></ImageView>
+
+     <TextView
+         android:id="@+id/dainik1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="118dp"
+         android:layout_marginTop="-43dp"
+         android:fontFamily="serif"
+         android:text="दैनिक जागरण "
+         android:textColor="#000"
+         android:textSize="30sp"
+         android:textStyle="bold"
+
+         ></TextView>
+
+     <ImageView
+         android:id="@+id/amarujala"
+         android:layout_width="100dp"
+         android:layout_height="50dp"
+         android:layout_marginTop="5dp"
+         android:background="@drawable/amarujal"></ImageView>
+
+     <TextView
+         android:id="@+id/Amarujala1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="118dp"
+         android:layout_marginTop="-41dp"
+         android:fontFamily="serif"
+         android:text="अमर उजाला    "
+         android:textSize="30sp"
+         android:textColor="#000"
+         android:textStyle="bold"
+
+         ></TextView>
+
+
+     <ImageView
+         android:id="@+id/punjabkesari"
+         android:layout_width="100dp"
+         android:layout_height="50dp"
+         android:layout_marginTop="5dp"
+         android:background="@drawable/punjabkesari"></ImageView>
+
+     <TextView
+         android:id="@+id/punjabkesari1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="118dp"
+         android:layout_marginTop="-41dp"
+         android:fontFamily="serif"
+         android:text="पंजाब केसरी        "
+         android:textColor="#000"
+         android:textSize="30sp"
+         android:textStyle="bold"
+
+         ></TextView>
+
+
+     <ImageView
+         android:id="@+id/dainikbhasker"
+         android:layout_width="100dp"
+         android:layout_height="50dp"
+         android:layout_marginTop="6dp"
+         android:background="@drawable/bhasker"></ImageView>
+
+     <TextView
+         android:id="@+id/dainikbhasker1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="118dp"
+         android:layout_marginTop="-41dp"
+         android:fontFamily="serif"
+         android:text="दैनिक भास्कर       "
+         android:textColor="#000"
+         android:textSize="30sp"
+         android:textStyle="bold"
+
+         ></TextView>
+
+
+     <ImageView
+         android:id="@+id/aajsmaj"
+         android:layout_width="100dp"
+         android:layout_height="50dp"
+         android:layout_marginTop="6dp"
+         android:background="@drawable/aajsmaj"></ImageView>
+
+     <TextView
+         android:id="@+id/aajsmaj1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="118dp"
+         android:layout_marginTop="-41dp"
+         android:fontFamily="serif"
+         android:text=" आज समाज         "
+         android:textColor="#000"
+         android:textSize="30sp"
+         android:textStyle="bold"></TextView>
+
+     <ImageView
+         android:id="@+id/ians"
+         android:layout_width="100dp"
+         android:layout_height="50dp"
+         android:layout_marginTop="6dp"
+         android:background="@drawable/ians"></ImageView>
+
+     <TextView
+         android:id="@+id/ians1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="118dp"
+         android:layout_marginTop="-41dp"
+         android:fontFamily="serif"
+         android:text=" Ians News          "
+         android:textColor="#000"
+         android:textSize="30sp"
+         android:textStyle="bold"></TextView>
+
+
+     <ImageView
+         android:id="@+id/haribhoomi"
+         android:layout_width="100dp"
+         android:layout_height="50dp"
+         android:layout_marginTop="6dp"
+         android:background="@drawable/haribhoomi"></ImageView>
+
+     <TextView
+         android:id="@+id/haribhoomi1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="118dp"
+         android:layout_marginTop="-41dp"
+         android:fontFamily="serif"
+         android:text=" हरि भूमि               "
+         android:textSize="30sp"
+         android:textStyle="bold"
+         android:textColor="#000"></TextView>
+
+
+
+
+     <ImageView
+         android:id="@+id/lokmat"
+         android:layout_width="100dp"
+         android:layout_height="50dp"
+         android:layout_marginTop="9dp"
+         android:background="@drawable/lokmat"></ImageView>
+
+     <TextView
+         android:id="@+id/lokmat1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="118dp"
+         android:layout_marginTop="-41dp"
+         android:fontFamily="serif"
+         android:text=" लोकमत           "
+         android:textColor="#000"
+         android:textSize="30sp"
+         android:textStyle="bold"></TextView>
+
+
+
+
+
+     <ImageView
+         android:id="@+id/prabhatkhabar"
+         android:layout_width="100dp"
+         android:layout_height="50dp"
+         android:layout_marginTop="9dp"
+         android:background="@drawable/prabhatkhabar"></ImageView>
+
+     <TextView
+         android:id="@+id/prabhatkhabar1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="118dp"
+         android:layout_marginTop="-41dp"
+         android:fontFamily="serif"
+         android:text="प्रभात खबर  "
+         android:textSize="30sp"
+         android:textColor="#000"
+         android:textStyle="bold"></TextView>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
